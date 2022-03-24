@@ -1,0 +1,899 @@
+/* EL CODIGO CSS ESTA ESCRITO COMO FIRST-MOBILE, Y CADA PARTE DEL CODIGO ESTA DISTINGUIDA CON UN TITULO QUE ESPECIFICA EN QUE PARTE DEL CODIGO ESTAMOS APLICANDO ESTILOS. EN CASO DE TENER ALGUN INCONVENIENTE Y NECESITES AYUDA, PUEDES ESCRIBIRME A MI CORREO ELECTRONICO nachopereyranoguez@gmail.com */
+
+/*-----------GLOBABLES-----------*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*-----------BODY-----------*/
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+body p {
+    font-size: 12px;
+}
+
+/*-----------HEADER-----------*/
+
+header {
+    background-color: #EAC926;
+    margin: auto;
+    width: 100vw;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 50%;
+    padding: 20px;
+}
+
+header form {
+    width: 50%;
+}
+
+.lupita {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+    border: none;
+}
+
+.lupita input {
+    width: 80%;
+    border-radius: 5px;
+    border: #ffffff;
+}
+
+.lupita i {
+    background-color: white;
+    margin-left: -5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.subtitulo h5 {
+    margin-top: 0px;
+    margin-left: 1px;
+    font-weight: 400;
+}
+
+nav {
+    display: none;
+}
+
+.site {
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.main-navbar ul {
+    margin: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.main-navbar ul .log-in {
+    display: flex none;
+    justify-content: center;
+}
+
+.log-in a {
+    margin-right: 5px;
+    display: none;
+}
+
+.sublog-in {
+    display: flex;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    padding: 10px 13px 10px 13px;
+    display: inline-block;
+}
+
+/*-----------BANNER-----------*/
+
+.banner img {
+    width: 100vw;
+}
+
+/*-----------MAIN-----------*/
+
+main {
+    margin: auto;
+    width: 90vw;
+
+}
+
+/*-----------MAIN_PRODUCTOS-----------*/
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.producto {
+    background-color: #ffffff;
+    margin: 0px auto 10px;
+
+}
+
+.sub-producto {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+main section img {
+    width: 80vw;
+    display: block;
+    justify-content: center;
+}
+
+.envio {
+    display: inline;
+    border-radius: 50%;
+    color: #39b54a;
+    padding: 5px;
+    border: 1px solid #39b54a;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+  }
+
+.precio {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #666;
+}
+
+.descuento {
+    font-size: 16px;
+    margin-top: 0px;
+    color: #39b54a;
+}
+
+article h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #666;
+    font-weight: 400;
+    display: none;
+}
+
+
+/*-----------MAIN_REGISTRO-----------*/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+form {
+    width: 100%;
+}
+
+.nombre, .usuario, .email, .fecha, .domicilio, .perfil-usuario, .foto, .contraseña, .confirmar-contraseña, .enviar, .borrar {
+    margin-bottom: 15px;
+}
+
+.normales input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: #ffffff;
+    display: inline-block;
+}
+
+.normales input:hover {
+    border: solid 1px black;
+}
+
+.normales .feedback {
+    font-size: 10px;
+    color: red;
+}
+
+.normales label {
+    font-weight: 700;
+}
+
+.sub-perfil-usuario {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.comprador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+
+}
+
+.comprador input {
+    margin-left: 15px;
+}
+
+.comprador label {
+    margin-left: 20px;
+}
+
+.vendedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.vendedor input {
+    margin-left: 15px;
+}
+
+.vendedor label {
+    margin-left: 20px;
+}
+
+form h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.interes {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.interes label {
+    margin-left: 15px;
+}
+
+.enviar {
+    background-color: #1259c3;
+    padding: 15px;
+    display: block;
+    width: 50%;
+}
+
+.enviar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.enviar a:visited {
+    color: white;
+}
+
+/*-----------MAIN_LOGIN-----------*/
+
+/* Se re-utilizo los estilos del MAIN_RESGISTRO, por eso no fue necesario agregar estilos */
+
+/*-----------FOOTER-----------*/
+
+footer {
+    background-color: #ebebeb;
+    text-align: center;
+    width: 100vw;
+}
+
+footer section {
+    background-color: white;
+    padding: 40px;
+}
+footer section i {
+    color: #1259c3;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer section h4 {
+    font-size: 18px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+/*-----------VERSION_TABLET-----------*/
+
+@media (min-width: 480px) {
+
+/*-----------HEADER-----------*/
+
+    header {
+        padding: 15px;
+    }
+
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .logo {
+        width: 33%;
+        padding: 10px;
+        align-self: center;
+    }
+
+    header .subtitulo {
+        display: block flex;
+        width: 33%;
+        justify-content: center;
+    }
+
+    header .subtitulo h5 {
+        align-items: center;
+        font-size: 12px;
+    }
+
+    header form {
+        width: 33%;
+    }
+
+    .lupita {
+        width: 100%;
+    }
+
+    .main-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-navbar .site {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-navbar .log-in {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-navbar .log-in a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-navbar .site a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .main-navbar .site a:hover {
+        background-color: #1259c3;
+        color: white;
+    }
+
+    .main-navbar .log-in a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 10px;
+        align-items: center;
+        margin-right: 2px;
+    }
+
+    .main-navbar .log-in i {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .main-navbar .log-in li {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .main-navbar .log-in li a:hover {
+        background-color: #1259c3;
+        color: white;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    /*-----------MAIN_PRODUCTOS-----------*/
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .producto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40vw;
+    }
+
+   .producto img {
+        width: 30vw;
+        display: block;
+        margin: auto;
+    }
+    
+    .sub-producto h4 {
+        display: block;
+    }
+
+/*-----------MAIN_REGISTRO-----------*/
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h4 {
+        font-size: 24px;
+        margin: 15px 0px;
+    }
+    
+    .formulario form {
+        width: 75%;
+        margin: auto;
+    }
+
+    .nombre, .usuario, .email, .fecha, .domicilio, .perfil-usuario, .foto, .contraseña, .confirmar-contraseña, .enviar, .borrar {
+        margin-bottom: 15px;
+    }
+    
+    .normales input {
+        margin-top: 5px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: #ffffff;
+        display: inline-block;
+    }
+    
+    .normales label {
+        font-weight: 700;
+    }
+    
+    .sub-perfil-usuario {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    
+    .comprador {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+    
+    }
+    
+    .comprador input {
+        margin-left: 15px;
+    }
+    
+    .comprador label {
+        margin-left: 10px;
+    }
+    
+    .vendedor {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .vendedor input {
+        margin-left: 15px;
+    }
+    
+    .vendedor label {
+        margin-left: 10px;
+    }
+    
+    form h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    
+    .intereses {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    
+    .interes {
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    
+    .interes label {
+        margin-left: 15px;
+    }
+    
+    .enviar {
+        background-color: #1259c3;
+        padding: 15px;
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    .enviar a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .enviar a:visited {
+        color: white;
+    }
+
+    .borrar button {
+        display: block;
+        margin: auto;
+    }
+
+/*-----------MAIN_LOGIN-----------*/
+/* ACA TAMBIEN SE RE-UTILIZO CODIGO DEL MAIN_REGISTRO */
+
+    .login form {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+/*-----------VERSION_ESCRITORIO-----------*/
+
+@media (min-width: 769px) {
+
+/*-----------HEADER-----------*/
+
+    header {
+        padding: 15px;
+    }
+
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .logo {
+        max-width: 33%;
+        padding: 10px;
+    }
+
+    .logo img {
+        max-width: 75%;
+        display: block;
+        margin: auto;
+    }
+    
+    header .subtitulo {
+        display: block flex;
+        width: 33%;
+        justify-content: center;
+        align-self: center;
+    }
+
+    header .subtitulo h5 {
+        align-items: center;
+    }
+
+    form .lupita {
+        margin: auto;
+        }
+
+    .lupita {
+        width: 100%;
+    }
+
+    .main-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-navbar .site {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-navbar .log-in {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-navbar .log-in a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-navbar .site a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .main-navbar .log-in a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        align-items: center;
+        margin-right: 2px;
+    }
+
+    .main-navbar .log-in i {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .main-navbar .log-in li {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+
+    /*-----------MAIN_PRODUCTOS-----------*/
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .producto {
+        width: 20vw;
+        box-shadow: none;
+    }
+
+    .producto:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+ 
+
+    .producto img {
+        width: 15vw;
+        display: block;
+        margin: auto;
+    }
+
+    .sub-producto h4 {
+        visibility: hidden;
+    }
+
+    .producto:hover > .sub-producto h4 {
+        visibility:visible;
+    }
+
+    .envio i {
+        transition: 1000ms;
+      }
+
+    .envio i:hover {
+          transform: rotateZ(-90deg);
+      }
+    
+/*-----------MAIN_REGISTRO-----------*/
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h4 {
+        font-size: 24px;
+        margin: 15px 0px;
+        text-align: center;
+    }
+    
+    .formulario form {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .nombre, .usuario, .email, .fecha, .domicilio, .perfil-usuario, .foto, .contraseña, .confirmar-contraseña, .enviar, .borrar {
+        margin-bottom: 15px;
+    }
+    
+    .normales input {
+        margin-top: 5px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: #ffffff;
+        display: inline-block;
+    }
+    
+    .normales label {
+        font-weight: 700;
+    }
+    
+    .sub-perfil-usuario {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    
+    .comprador {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+    
+    }
+    
+    .comprador input {
+        margin-left: 15px;
+    }
+    
+    .comprador label {
+        margin-left: 20px;
+    }
+    
+    .vendedor {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .vendedor input {
+        margin-left: 15px;
+    }
+    
+    .vendedor label {
+        margin-left: 20px;
+    }
+    
+    form h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    
+    .intereses {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    
+    .interes {
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    
+    .interes label {
+        margin-left: 15px;
+    }
+    
+    .enviar {
+        background-color: #1259c3;
+        padding: 15px;
+        display: block;
+        width: 50%;
+    }
+
+    .enviar:hover {
+        background-color: #0022AA;
+    }
+    
+    .enviar a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .enviar a:visited {
+        color: white;
+    }
+
+    .borrar button {
+        display: block;
+        margin: auto;
+    }
+
+/*-----------MAIN_LOGIN-----------*/
+/* ACA TAMBIEN SE RE-UTILIZO CODIGO DEL MAIN_REGISTRO */
+
+    .login form {
+        width: 50%;
+        margin: auto;
+    }
+
+/*-----------FOOTER-----------*/
+
+    footer section i:hover {
+        color: #EAC926;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    footer .sub-footer {
+        width: 33%;
+    }
+
+    footer .footer-p {
+        display: flex;
+        margin: auto;
+    }
+
+}
